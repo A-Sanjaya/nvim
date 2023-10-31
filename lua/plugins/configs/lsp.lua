@@ -41,13 +41,13 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
 
 require("mason").setup()
-
---require('mason-lspconfig').setup(
---{
+--
+-- require('mason-lspconfig').setup({
 --    ensure_installed = {},
 --    automatic_installation = true,
 --    handlers = nil,
---})
+--  }
+-- )
 
 
 local navic = require('nvim-navic')

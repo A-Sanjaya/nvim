@@ -53,7 +53,7 @@ require("mason").setup()
 local navic = require('nvim-navic')
 
 
-local language_servers = {'pyright', 'lua_ls', 'clangd', 'cmake', 'html', 'cssls'}
+local language_servers = {'pyright', 'lua_ls', 'clangd', 'cmake', 'html', 'cssls', 'emmet_ls', 'bashls', 'gdscript'}
 
 
 for _, server in ipairs(language_servers) do

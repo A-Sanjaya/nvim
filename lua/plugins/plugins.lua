@@ -71,7 +71,6 @@ require("lazy").setup({
 
   -- cmake tools
   'Civitasv/cmake-tools.nvim',
-  'ojroques/nvim-osc52',
 })
 
 
@@ -91,7 +90,6 @@ require('plugins/configs/rust-tools')
 require('plugins/configs/ccc')
 require('plugins/configs/nvim-treesitter')
 require('plugins/configs/cmake-tools')
-require('plugins/configs/osc52')
 
 -- theme
 vim.cmd[[colorscheme gruvbox]]
